@@ -31,3 +31,14 @@ body{
     border-radius: 10px;
     opacity: 93%;
 }
+
+@media (max-width:700px){
+    .resultdiv{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .formdiv{
+        width: 96%;
+        margin-left: 2%;
+    }
+}
