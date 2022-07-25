@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+body{
+    background-image: url("/static/images/bg.jpg");
+    font-family: 'Numans', sans-serif;
+}
+
+.outerdiv{
+    text-align: center;
+}
+
+.formdiv{
+    background-color: blueviolet;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15px;
+    border-radius: 15px;
+    color: rgb(244, 236, 236);
+    opacity: 93%;
+}
+
+.resultdiv{
+    background-color: rgb(254, 233, 207);
+    position: relative;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30px;
+    border-radius: 10px;
+    opacity: 93%;
+}
