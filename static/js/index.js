@@ -23,7 +23,6 @@ $(document).ready(function()
             }).done(function(data)
             {
                 result = data;
-                alert();
                 document.getElementById("loading").setAttribute("hidden",false);
                 document.getElementById("result").innerHTML = result;
                 document.getElementById("resultdiv").removeAttribute("hidden");
