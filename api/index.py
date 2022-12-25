@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, redirect, render_template, request, url_for
-from calculator import Calculate
+from .calculator import Calculate
 
 app = Flask(__name__)
 
